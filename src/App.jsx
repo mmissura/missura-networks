@@ -28,21 +28,28 @@ export const App = () => {
       </header>
 
       <main className='m-auto w-full my-12'>
-        <div className='text-4xl 2xl:w-10/12 xl:w-10/12 px-4 font-bold text-yellow-400'>Sobre:
+        
+        <div className='text-4xl 2xl:w-10/12 xl:w-10/12 text-center px-4 font-bold text-yellow-400'>Sobre:
         </div>
-        <p className='2xl:w-10/12 xl:w-10/12 px-4 my-5'>A Missura Networks é especializada em criação de sites profissionais, landing pages e gestão de tráfego pago com anúncios no Google.</p>
+        <p className='2xl:w-10/12 xl:w-10/12 text-center px-4 my-5'>A Missura Networks é especializada em criação de sites profissionais, landing pages e gestão de tráfego pago com anúncios no Google.<br></br>        
+        </p>
+
         
         <h1 className='text-4xl 2xl:w-10/12 xl:w-10/12 text-center px-4 mt-20 font-bold text-yellow-400'>Serviços:
         </h1>
 
+        <div className='flex flex-cols-3 gap-4 justify-center items-center'>
         <h2 className='text-4xl 2xl:w-10/12 xl:w-10/12 px-4 mt-4 text-[#2E72A4]'>Criação de Sites:</h2>
-        <p className='2xl:w-10/12 xl:w-10/12 px-4 my-5'>Sites profissionais, responsivos e customizados conforme a necessidade de cada cliente.</p>
+        <p className='2xl:w-10/12 xl:w-10/12'>Sites profissionais, responsivos e customizados conforme a necessidade de cada cliente.
+        <p>Ajudamos sua marca a alcançar o sucesso desejado através de páginas personalizadas e eficientes.</p>
+        </p>
         
         <h2 className='text-4xl 2xl:w-10/12 xl:w-10/12 px-4 mt-20 text-[#2E72A4]'>Criação de Landing Pages:</h2>
         <p className='2xl:w-10/12 xl:w-10/12 px-4 my-5'>Landing Pages para seu negócio/marca.</p>
         
         <h2 className='text-4xl 2xl:w-10/12 xl:w-10/12 px-4 mt-20 text-[#2E72A4]'>Gestão de Tráfego:</h2>
         <p className='2xl:w-10/12 xl:w-10/12 px-4 my-5'>Gerenciamos o tráfego dos anúncios no Google.</p>
+        </div>
       </main>
 
       <section className='w-full bg-gradient-to-r from-cyan-600 bg-[#2E72A4] h-52'>
