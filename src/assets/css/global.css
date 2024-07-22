@@ -2,7 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  @apply bg-white;
-  font-family: 'Lato', sans-serif;
+.bg-image {
+  background: url('https://img.freepik.com/premium-photo/blue-growth-graph-business-chart-data-diagram-success-financial-presentation-background-with-abstract-up-arrow-bar-symbol-finance-marketing-price-statistic-economy-market-profit-investment_79161-2364.jpg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
+
+.bg-image1 {
+  background: url('https://static.vecteezy.com/system/resources/previews/006/430/145/non_2x/technology-background-concept-circuit-board-electronic-system-futuristic-hi-tech-light-on-dark-blue-free-vector.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
