@@ -10,9 +10,9 @@ import Image from './assets/images/ads1.png'
 export const App = () => {
   return (
     <div className='w-full h-full'>
-      <nav className='w-full h-20 bg-white'>
+      <nav className='w-full h-28 bg-white'>
         <div className='2xl:w-10/12 xl:w-10/12 h-full m-auto px-4 flex items-center justify-between'>
-          <img src={Logo} className='w-32' alt='Logo Missura Networks' title='Logo Missura Networks' />
+          <img src={Logo} className='w-40' alt='Logo Missura Networks' title='Logo Missura Networks' />
           <ul className='flex gap-3'>
             <li>SOBRE</li>
             <li>SERVIÇOS</li>
