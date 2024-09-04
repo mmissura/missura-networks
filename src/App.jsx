@@ -178,7 +178,7 @@ export const App = () => {
 
       <CardInline>
         <h1
-          className='text-xl text-center 2xl:text-3xl xl:text-3xl lg:text-3xl 
+          className='text-[#2f72a4] text-xl text-center 2xl:text-3xl xl:text-3xl lg:text-3xl 
            my-10 mx-4 font-bold'
         >
           Quer divulgar sua empresa ou produto e atrair mais clientes?<br />
