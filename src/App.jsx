@@ -43,8 +43,8 @@ export const App = () => {
               />
 
               <CardInline>
-                <p className='text-white 2xl:text-2xl lg:text-2xl text-xl 2xl:text-start 
-              xl:text-start lg:text-start text-center font-bold mb-10'>
+                <p className='text-white 2xl:text-2xl lg:text-2xl text-xl 2xl:text-center 
+              xl:text-center lg:text-center text-center font-bold mb-10'>
                   Temos como objeto ajudar as empresas a alcançarem melhores
                   resultados online através do marketing digital.
                 </p>
@@ -84,8 +84,8 @@ export const App = () => {
 
                 <CardInline>
 
-                  <p className='text-white 2xl:text-2xl lg:text-2xl text-xl 2xl:text-start 
-              xl:text-start lg:text-start text-center font-bold mb-10'>
+                  <p className='text-white 2xl:text-2xl lg:text-2xl text-xl 2xl:text-center 
+              xl:text-center lg:text-center text-center font-bold mb-10'>
                     Sites profissionais responsivos e customizados
                     conforme a necessidade de cada cliente.
                   </p>
