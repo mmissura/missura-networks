@@ -5,6 +5,8 @@ import { SiGoogleads } from 'react-icons/si';
 import { HiOutlineDesktopComputer } from 'react-icons/hi';
 import { FaCode } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
+import { CiFacebook } from "react-icons/ci";
+
 
 import { TitlePage } from './components/TitlePage';
 import { CardInline } from './components/CardInline';
@@ -56,7 +58,7 @@ export const App = () => {
               xl:text-start lg:text-start text-center font-light'>
 
                     Desenvolvemos sites profissionais e customizados, landing pages
-                    e gestão de tráfego patrocinado com anúncios no Google.
+                    e gestão de tráfego com anúncios patrocinados  no Google, Meta e Tiktok.
 
                   </li>
                   <li className='text-white 2xl:text-2xl lg:text-2xl text-xl 2xl:text-start 
@@ -133,7 +135,7 @@ export const App = () => {
                     </li>
                     <li className='text-white 2xl:text-2xl lg:text-2xl text-xl 2xl:text-start 
               xl:text-start lg:text-start text-center font-light'>
-                      Aumente a taxa de conversão de visitantes em clientes com uma landing page bem projetada.<br />
+                      Aumente a taxa de conversão e gere mais oportunidades de negócios com uma landing page bem projetada.<br />
                     </li>
                   </ul>
 
@@ -158,7 +160,7 @@ export const App = () => {
 
                     <li className='text-white 2xl:text-2xl lg:text-2xl text-xl 2xl:text-start 
               xl:text-start lg:text-start text-center font-light'>
-                      Gestão de tráfego com anúncios patrocinados no Google. <br />
+                      Gestão de tráfego com anúncios patrocinados no Google, Meta e Tiktok. <br />
                       Exiba seus anúncios para as pessoas certas, no lugar certo e na hora certa.<br />
                       Faça a diferença e saia na frente da concorrência.
 
@@ -213,13 +215,23 @@ export const App = () => {
             </p>
           </div>
 
-          <div className='flex flex-col-2 justify-beetween items-center text-center m-auto my-2 gap-8 text-white text-md'>
+          <div className='flex flex-col-3 justify-beetween items-center text-center m-auto my-2 gap-8 text-white text-md'>
             <a
               target='_blank'
               href="https://instagram.com/missuranetworks">
 
               <p className='flex justify-between items-center gap-2'>
                 <BsInstagram /> @missuranetworks
+              </p>
+
+            </a>
+
+            <a
+              target='_blank'
+              href="https://www.facebook.com/profile.php?id=61566022891643">
+
+              <p className='flex justify-between items-center gap-2'>
+              <CiFacebook size={20}/> missuranetworks
               </p>
 
             </a>
