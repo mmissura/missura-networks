@@ -25,9 +25,10 @@ export const App = () => {
           <section className='mt-10'>
             <a
               href='https://wa.me/5519971027173'
-              target='_blank'
+              target='_blank'          
               className='bg-green-700 text-white py-3 px-4 flex justify-center 
           items-center gap-3 rounded-xl mb-12 cursor-pointer'
+          rel='noopener noreferrer'
             >
               <BsWhatsapp /> Fale conosco
             </a>
@@ -197,6 +198,7 @@ export const App = () => {
           href='https://wa.me/5519971027173'
           target='_blank'
           className='bg-green-700 text-white py-3 px-10 flex justify-center items-center gap-3 rounded-xl mb-12 cursor-pointer'
+          rel='noopener noreferrer'
         >
           <BsWhatsapp /> Fale conosco
         </a>
@@ -204,23 +206,25 @@ export const App = () => {
 
 
       <footer className='text-center bg-gradient-to-r from-cyan-600 bg-[#2E72A4] text-sm'>
-        <div className='flex flex-wrap justify-beetween items-center
+        <div className='flex flex-cols-2 justify-beetween items-center
          2xl:flex-col-2 xl:flex-col-2 lg:flex-col-2 text-center p-4 flex-col-reverse'>
 
        
 
           <div className='text-start flex justify-center items-center'>
-            <p className='my-4 text-white p-2 text-center'>
+            <p className='my-2 text-white p-2 text-center'>
               &copy; Copyright 2024 Missura Networks. <br />CNPJ: 53.447.302/0001-79.
             </p>
           </div>
 
-          <div className='flex flex-col-3 justify-beetween items-center text-center m-auto my-2 gap-8 text-white text-md'>
+          <div className='2xl:flex 2xl:flex-col-3 xl:flex xl:flex-col-3 lg:flex lg:flex-col-3 
+          flex-col-2 justify-between items-center text-center m-auto gap-8 text-white text-md'>
             <a
               target='_blank'
+              rel='noopener noreferrer'
               href="https://instagram.com/missuranetworks">
 
-              <p className='flex justify-between items-center gap-2'>
+              <p className='flex justify-start items-center gap-2 my-2 mx-1'>
                 <BsInstagram /> @missuranetworks
               </p>
 
@@ -228,18 +232,20 @@ export const App = () => {
 
             <a
               target='_blank'
+              rel='noopener noreferrer'
               href="https://www.facebook.com/profile.php?id=61566022891643">
 
-              <p className='flex justify-between items-center gap-2'>
-              <CiFacebook size={20}/> missuranetworks
+              <p className='flex justify-start items-center gap-2 my-2'>
+              <CiFacebook size={19}/> missuranetworks
               </p>
 
             </a>
 
-            <p className='flex justify-between items-center gap-2'>
+            <p className='flex justify-start items-center gap-2 my-2 mx-1'>
               <a
                 href='https://wa.me/5519971027173'
                 target='_blank'
+                rel='noopener noreferrer'
                 className='flex flex-col-2 justify-between items-center gap-2'
               >
                 <BsWhatsapp />  (19) 97102-7173
