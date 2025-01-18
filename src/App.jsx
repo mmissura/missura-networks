@@ -213,7 +213,7 @@ export const App = () => {
 
           <div className='text-start flex justify-center items-center'>
             <p className='my-2 text-white p-2 text-center'>
-              &copy; Copyright 2024 Missura Networks. <br />CNPJ: 53.447.302/0001-79.
+              &copy; Copyright 2025 Missura Networks. <br />CNPJ: 53.447.302/0001-79.
             </p>
           </div>
 
