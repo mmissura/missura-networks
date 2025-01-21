@@ -12,6 +12,7 @@ import { TitlePage } from './components/TitlePage';
 import { CardInline } from './components/CardInline';
 
 export const App = () => {
+  const getYear = new Date().getFullYear();
   return (
     <div className='w-full h-full'>
       <nav className='w-full h-28 bg-white'>
@@ -213,7 +214,7 @@ export const App = () => {
 
           <div className='text-start flex justify-center items-center'>
             <p className='my-2 text-white p-2 text-center'>
-              &copy; Copyright 2025 Missura Networks. <br />CNPJ: 53.447.302/0001-79.
+              Copyright &copy;  {getYear} Missura Networks. <br />CNPJ: 53.447.302/0001-79.
             </p>
           </div>
 
